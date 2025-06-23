@@ -3,3 +3,14 @@ git branch -M main
 git push -u origin main
 
 npm install gh-pages --save-dev
+
+{
+  "name": "my-job-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME", // <--- ADD THIS LINE
+  "dependencies": {
+    // ... existing dependencies
+  },
+  // ... rest of the file
+}
